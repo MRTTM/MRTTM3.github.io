@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>登陆/注册</title>
+</head>
+<style>
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+<body>
+
+
+
+    <div>
+        <form action="https://mrttm.github.io">
+            <label for="fname">账号</label>
+            <input type="text" id="fname" name="firstname" placeholder="请输入">
+
+            <label for="lname">密码</label>
+            <input type="text" id="lname" name="lastname" placeholder="请输入">
+
+            <label for="登陆地区">登陆地区</label>
+            <select id="登陆地区" name="登陆地区">
+                <option value="请选择">请选择</option>
+                <option value="亚洲地区">亚洲地区</option>
+                <option value="欧洲地区">欧洲地区</option>
+                <option value="美洲地区">美洲地区</option>
+                <option value="非洲地区">非洲地区</option>
+                <option value="澳洲地区">澳洲地区</option>
+                <option value="其他">其他</option>
+
+            </select>
+
+            <button onclick="alert('登陆成功')"><h2>登陆</h2></button>
+        </form>
+    
+
+
+<form action="https://mrttm.github.io/MRTTM111.github.io">
+    <div style=" float:right; background:"><button onclick="alert('跳转中')"><h2>注册</h2></button></div>
+</form>
+</div>
+</body>
+</html>
